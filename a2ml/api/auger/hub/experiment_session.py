@@ -1,5 +1,5 @@
-from a2ml.api.auger.hub.base import AugerBaseApi
-from a2ml.api.auger.hub.trial import AugerTrialApi
+from .base import AugerBaseApi
+from .trial import AugerTrialApi
 
 
 class AugerExperimentSessionApi(AugerBaseApi):

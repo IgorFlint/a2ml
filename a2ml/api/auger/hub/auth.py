@@ -1,6 +1,6 @@
-from a2ml.api.auger.hub.rest_api import RestApi
-from a2ml.api.auger.hub.org import AugerOrganizationApi
-from a2ml.api.auger.hub.utils.exception import AugerException
+from .rest_api import RestApi
+from .org import AugerOrganizationApi
+from .utils.exception import AugerException
 
 
 class AugerAuthApi(object):
